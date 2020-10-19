@@ -1,0 +1,53 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+                   div.anim {
+        width: 100px;
+        height: 5px;
+        background: red;
+        position: relative;
+        animation: mymove 5s infinite;
+        animation-timing-function: linear;
+    }
+
+          @keyframes mymove {
+  from {left:0%;}
+  to {left:100%}
+}  
+
+        </style>
+   
+           <body>
+
+           </body>
+          <div class="navbar">
+            <h1>
+                  TKMCE Student Portal
+               </h1>
+
+          </div>
+        <title>
+            TKMCE Portal
+        </title>
+    </head>
+    <body>
+        
+        
+        <form action="main.html">
+            <div class="anim"></div>
+            <center>
+                
+            <H1>LOGIN</H1>
+            <input type="text" placeholder="User id" id="name" name="name"><br><br>
+            <input type="password" placeholder="Password" id="pwd" name="pwd"><br><br>
+            <input type="submit">
+        </form>
+          </center>
+        <img src="tkmLogo.png" class= "center"width="500" height="500">
+
+        
+
+    </body>
+</html>

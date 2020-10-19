@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+        <div class="navbar">
+            <h1>
+                TKMCE Student Portal &nbsp;
+            
+             <a href="events.html">Events </a> &nbsp;
+             <a href="exam.html">Exam</a>  &nbsp;
+             <a href="gallery.html">Gallery</a> &nbsp;
+             <a href="login.html">Logout</a> &nbsp;
+    </h1>
+
+          </div>
+        <style>
+            .item1{
+                grid-area: header;
+            }
+                .item2{
+                    grid-area: menu;
+                }
+                    .item3{
+                     grid-area: right;
+                   }
+            .grid-container {
+                display: grid;
+                grid-template-areas: 
+                    'header header header header header header '
+                    'menu right right right right right'
+                    ;
+                    grid-gap: 5px;
+                    background-color: rgb(30, 98, 162);
+                    padding: 10px;
+            }
+        .grid-container > div{
+            background-color: rgb(49, 91, 119);
+            padding: 10px 0;
+            font-size: 30px;
+        }
+        h3{
+            text-align: center;
+        }
+       
+        </style>
+    </head>
+    <body>
+        <div class="grid-container">
+        <div class="item1"><h3>Upcomimg Events  </h3>
+            </div>
+        <div class="item2">2/11/20<br>
+                           4/11/20<br>
+                           9/11/20</div>
+        <div class="item3">Webinar on Webprogramming<br>
+                            Hackathon<br>
+                            Coding challenge </div>
+
+            </div> 
+    </body>
+</html>

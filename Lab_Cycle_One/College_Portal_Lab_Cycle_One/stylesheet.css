@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+;
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(25, 96, 150);
+    overflow: auto;
+  }
+  body{
+      background-color: rgb(70, 137, 189);
+       
+    
+  }
