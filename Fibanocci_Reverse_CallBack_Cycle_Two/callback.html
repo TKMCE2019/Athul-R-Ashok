@@ -1,0 +1,14 @@
+<html>
+<body style="background-color: aqua;">
+<script type="text/javascript">  
+ function add(x,y,callbk){ 
+document.write(`${x}+${y}=${x+y}`+"<br>"); 
+callbk(); 
+   } 
+ function disp(){ 
+   document.write('Text print after adding numbers'); 
+   } 
+add(1,2,disp); 
+ </script>
+</body>
+</html>

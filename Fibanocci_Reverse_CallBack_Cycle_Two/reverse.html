@@ -1,0 +1,20 @@
+
+<html>
+   <body style="background-color:rgb(57, 215, 233);">
+   <h1>String Reversal</h1>
+    <script type="text/javascript">
+function RevStr(str) {
+let newString = "";
+for (let i = str.length-1;i>= 0;i--){
+    newString += str[i];
+}
+return newString;
+}
+let string = prompt('Enter a string___ ');
+result = RevStr(string);
+document.write("String is___",string, "<br/>");
+document.write("Reverse_____", result);
+</script>
+</body>
+</html>
+    

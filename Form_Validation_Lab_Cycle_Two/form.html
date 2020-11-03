@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     </head>
+        <body style="background-color:rgb(219, 238, 240);">
+            <h1>FORM</h1>
+        <form method="POST">
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <td><input type="text" name="name"required pattern="[a-zA-Z\s]{1,30}" title="Use Alphabets from A-Z either lower/upper "></td>
+                </tr>
+                <tr>
+                    <th>GENDER</th>
+                    <td><input type="radio" name="gender" />MALE
+                         <input type="radio" name="gender"/>FEMALE
+                    </td>
+                </tr>
+                <tr>
+                    <th>PHONE</th>
+                    <td><input type="text" name="phn" required pattern="[0-9]{10}" title="Enter a valid Phone Number"></td>
+                </tr>
+                <tr>
+                    <th>D.O.B</th>
+                    <td><input type="date" name="dob" required></td>
+                </tr>
+                <tr>
+                <th></th>
+                    <td><input type="submit" name="app" value="APPLY" required></td>
+                </tr>
+            </table>
+            </body>
+</html>
