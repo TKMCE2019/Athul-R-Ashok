@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head><style>
+        #clear{
+            width: 100px;
+
+        }
+        .formstyle{
+            width: 315px;
+            height: 500px;
+            margin: auto;
+            border:5px solid rgb(255, 185, 185);
+            border-radius: 20px;
+            background-color: rgb(12, 11, 11);
+        }
+        input{
+            border-radius: 15px;
+            width: 70px;
+            height: 60px;
+            font-size: x-large;
+        }
+        #styl{
+            width: 285px;
+            background-color:black;
+        }
+        p.mrg{
+            margin: 10px;
+        }
+
+        p1.txt1{
+            font-family: Arial, Helvetica, sans-serif;
+            color: blanchedalmond;
+        }
+        p2.txt2{
+            font-family: Arial, Helvetica, sans-serif;
+            color:cornflowerblue;
+        }
+
+
+    </style>
+
+
+<script>
+
+function text() {
+  var x = document.getElementById("styl");
+  setTimeout(function(){ x.value="MCA_Calc fx-54" }, 500);
+  setTimeout(function(){ x.value=""}, 4000);
+  setTimeout(function background() {
+    document.getElementById("styl").style.backgroundColor = "#FFFFFF";
+},1000)
+}
+function text2() {
+  var x = document.getElementById("styl");
+  setTimeout(function(){ x.value="MCA_Calc fx-54" }, 500);
+  setTimeout(function background() {
+    document.getElementById("styl").style.backgroundColor = "#000";
+},4000)
+}
+
+
+</script>
+   
+
+
+</head>
+<body>
+
+    <div class="formstyle">
+        <form name="forms">
+            <p class="mrg">
+           <p1 class="txt1"> MCA_Calc fx-54</p1>
+            <input type="text" name="answer"id="styl">
+            <br></br>
+
+            <input type="button" style="background-color: cornflowerblue;" value="ON" onclick="text();">
+            <input type="button" style="background-color: cornflowerblue;" value="OFF" onclick="text2();">
+             <input type="button" value="CLR" onclick="forms.answer.value=''">
+            <p2 class="txt2">MCAcalc</p2> 
+
+           
+            <br></br>
+            <input type="button" value="1" onclick="forms.answer.value +='1'">
+            <input type="button" value="2" onclick="forms.answer.value +='2'">
+            <input type="button" value="3" onclick="forms.answer.value +='3'">
+            <input type="button" style="background-color:rgb(226, 73, 73);" value="+" onclick="forms.answer.value +='+'">
+            
+            <br></br>
+            <input type="button" value="4" onclick="forms.answer.value +='4'">
+            <input type="button" value="5" onclick="forms.answer.value +='5'">
+            <input type="button" value="6" onclick="forms.answer.value +='6'">
+            <input type="button" style="background-color:rgb(226, 73, 73);" value="-" onclick="forms.answer.value +='-'">
+            <br></br>
+            <input type="button" value="7" onclick="forms.answer.value +='7'">
+            <input type="button" value="8" onclick="forms.answer.value +='8'">
+            <input type="button" value="9" onclick="forms.answer.value +='9'">
+            <input type="button" style="background-color:rgb(226, 73, 73);"  value="*" onclick="forms.answer.value +='*'">
+            <br></br>
+            <input type="button" value="." onclick="forms.answer.value +='.'">
+            <input type="button" value="0" onclick="forms.answer.value +='0'">
+            <input type="button" style="background-color:rgb(255, 227, 137);"value="=" onclick="forms.answer.value =eval(forms.answer.value)">
+            <input type="button" style="background-color:rgb(226, 73, 73);"  value="/" onclick="forms.answer.value +='/'">
+       
+            <br></br>
+            
+          </p>  
+        </form>
+
+
+    </div>
+    
+</body>
+</html> 
